@@ -41,6 +41,13 @@ public class SumOfTowNumber {
 		System.out.println(Arrays.toString(index));
 	}
 
+	/**
+	 *
+	 * @param nums
+	 * @param target
+	 * @return
+	 * 使用hash表
+	 */
 	private static int[] getIndex_2(int[] nums, int target) {
 		int[] index = new int[2];
 		Map<Integer,Integer> map = new HashMap<Integer, Integer>();
